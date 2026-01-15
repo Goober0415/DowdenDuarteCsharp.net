@@ -1,0 +1,8 @@
+﻿Build started at 3:29 PM...
+1>------ Build started: Project: ExceptionDemoDowdenDuarte, Configuration: Debug Any CPU ------
+1>  Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>C:\Users\jdowdenduarte\source\repos\ExceptionDemoDowdenDuarte\Program.cs(29,35,29,38): warning CS0168: The variable 'exc' is declared but never used
+1>C:\Users\jdowdenduarte\source\repos\ExceptionDemoDowdenDuarte\Program.cs(34,37,34,40): warning CS0168: The variable 'exc' is declared but never used
+1>  ExceptionDemoDowdenDuarte -> C:\Users\jdowdenduarte\source\repos\ExceptionDemoDowdenDuarte\bin\Debug\net10.0\ExceptionDemoDowdenDuarte.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 3:29 PM and took 00.940 seconds ==========
