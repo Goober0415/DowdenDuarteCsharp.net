@@ -3,11 +3,6 @@
 // File: IdealGasCalculator.cs
 // Date: January 15, 2026
 
-// Name: [Your Name]
-// Email: [Your Email]
-// File: IdealGasCalculator.cs
-// Date: January 15, 2026
-
 using System;
 using System.IO;
 
@@ -257,4 +252,5 @@ namespace P1_IdealGasLawCalculator_DowdenDuarte
 			return response == "y" || response == "yes";
 		}
 	}
+
 }
