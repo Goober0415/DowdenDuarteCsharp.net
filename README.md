@@ -3,8 +3,8 @@
 A C# console application that calculates the pressure exerted by a gas in a container using the Ideal Gas Law equation (PV = nRT).
 
 ## Author Information
-- **Name:** [Your Name]
-- **Email:** [Your Email]
+- **Name:** [Jamie Dowden-Duarte]
+  
 - **Course:** C# Programming
 - **Date:** January 15, 2026
 
