@@ -5,75 +5,102 @@
  * Date: 2026-02-02
  */
 
-using System;
-
 namespace P2IdealGasLawDowdenDuarte
 {
-	public class IdealGas
-	{
-		// Private fields (Data Members) - Requirement 2.4
-		private double mass;
-		private double volume;
-		private double temperature;
-		private double molecularWeight;
-		private double pressure;
+    class IdealGas
+    {
+        // Private fields
+        private double mass;              // grams
+        private double volume;            // cubic meters
+        private double temp;              // Celsius
+        private double molecularWeight;   // g/mol
+        private double pressure;          // Pascals
 
-		// Constant for the Ideal Gas Constant (J / (mol·K))
-		private const double R = 8.314;
+        // Gas constant
+        private const double R = 8.314;   // J/(mol·K)
 
-		// Requirement 2.5 & 2.6: Class Methods (Getters and Setters)
+        // Constructor - initializes all fields to zero
+        public IdealGas()
+        {
+            mass = 0;
+            volume = 0;
+            temp = 0;
+            molecularWeight = 0;
+            pressure = 0;
+        }
 
-		// Mass Property Methods
-		public void SetMass(double mass)
-		{
-			this.mass = mass;
-			Calc(); // Automatically recalculate when data changes
-		}
-		public double GetMass() => mass;
+        // Getter and Setter for Mass
+        public double GetMass()
+        {
+            return mass;
+        }
 
-		// Volume Property Methods
-		public void SetVolume(double volume)
-		{
-			this.volume = volume;
-			Calc();
-		}
-		public double GetVolume() => volume;
+        public void SetMass(double mass)
+        {
+            this.mass = mass;
+            Calc();  // Recalculate pressure when mass changes
+        }
 
-		// Temperature Property Methods (Stored in Celsius, Calc converts to Kelvin)
-		public void SetTemperature(double temperature)
-		{
-			this.temperature = temperature;
-			Calc();
-		}
-		public double GetTemperature() => temperature;
+        // Getter and Setter for Volume
+        public double GetVolume()
+        {
+            return volume;
+        }
 
-		// Molecular Weight Property Methods
-		public void SetMolecularWeight(double mw)
-		{
-			this.molecularWeight = mw;
-			Calc();
-		}
-		public double GetMolecularWeight() => molecularWeight;
+        public void SetVolume(double volume)
+        {
+            this.volume = volume;
+            Calc();  // Recalculate pressure when volume changes
+        }
 
-		// Pressure Property Method (Get only)
-		public double GetPressure() => pressure;
+        // Getter and Setter for Temperature
+        public double GetTemperature()
+        {
+            return temp;
+        }
 
-		// Requirement 2.6: Private, parameterless calculate method
-		private void Calc()
-		{
-			// Conversion: Celsius to Kelvin
-			double tempKelvin = temperature + 273.15;
+        public void SetTemperature(double temp)
+        {
+            this.temp = temp;
+            Calc();  // Recalculate pressure when temperature changes
+        }
 
-			// P = (mRT) / (MW * V)
-			// Ensure we don't divide by zero
-			if (molecularWeight > 0 && volume > 0)
-			{
-				pressure = (mass * R * tempKelvin) / (molecularWeight * volume);
-			}
-			else
-			{
-				pressure = 0;
-			}
-		}
-	}
+        // Getter and Setter for Molecular Weight
+        public double GetMolecularWeight()
+        {
+            return molecularWeight;
+        }
+
+        public void SetMolecularWeight(double molecularWeight)
+        {
+            this.molecularWeight = molecularWeight;
+            Calc();  // Recalculate pressure when molecular weight changes
+        }
+
+        // Getter ONLY for Pressure (read-only, calculated automatically)
+        public double GetPressure()
+        {
+            return pressure;
+        }
+
+        // Private calculate method - calculates pressure using PV = nRT
+        private void Calc()
+        {
+            // Avoid division by zero
+            if (volume == 0 || molecularWeight == 0)
+            {
+                pressure = 0;
+                return;
+            }
+
+            // Convert temperature from Celsius to Kelvin
+            double tempKelvin = temp + 273.15;
+
+            // Calculate moles: n = mass / molecular weight
+            double moles = mass / molecularWeight;
+
+            // Calculate pressure: P = nRT / V
+            pressure = (moles * R * tempKelvin) / volume;
+        }
+    }
 }

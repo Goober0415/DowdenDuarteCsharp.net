@@ -5,6 +5,7 @@
  * Date: 2026-02-02
  */
 
+
 using System;
 using System.IO;
 
@@ -12,131 +13,202 @@ namespace P2IdealGasLawDowdenDuarte
 {
 	class Program
 	{
+		// Arrays to store gas data
+		static string[] gasNames;
+		static double[] molecularWeights;
+		static int gasCount = 0;
+
 		static void Main(string[] args)
 		{
-			string[] gasNames = new string[100];
-			double[] molecularWeights = new double[100];
-			int count = 0;
-
+			// Display header
 			DisplayHeader();
 
-			// Load data from CSV
-			count = GetMolecularWeights(ref gasNames, ref molecularWeights);
+			// Load gas data from file
+			GetMolecularWeights("gases.txt");
 
-			string choice;
+			// Display available gases
+			DisplayGasNames();
+
+			// Main loop for multiple calculations
+			string doAnother;
 			do
 			{
-				// Requirement 7.12 & 7.13: Exception Handling
 				try
 				{
-					DisplayGasNames(gasNames, count);
+					// Get gas name from user
+					Console.Write("\nEnter gas name: ");
+					string gasName = Console.ReadLine();
 
-					Console.Write("\nEnter the name of the gas: ");
-					string name = Console.ReadLine();
+					// Get molecular weight for selected gas
+					double molWeight = GetMolecularWeightFromName(gasName);
 
-					double weight = GetMolecularWeightFromName(name, gasNames, molecularWeights, count);
-
-					if (weight == -1)
+					// Check if gas was found
+					if (molWeight == -1)
 					{
-						Console.WriteLine("Error: Gas name not found in database.");
+						Console.WriteLine($"Error: Gas '{gasName}' not found in database.");
+						Console.WriteLine("Please check spelling and try again.\n");
+						doAnother = GetInput("Do another calculation? (y/n): ");
+						continue;  // Skip to next iteration
 					}
-					else
-					{
-						// Instantiate the class
-						IdealGas gas = new IdealGas();
-						gas.SetMolecularWeight(weight);
 
-						Console.Write("Enter volume (cubic meters): ");
-						gas.SetVolume(Convert.ToDouble(Console.ReadLine()));
+					// Create new IdealGas object
+					IdealGas gas = new IdealGas();
 
-						Console.Write("Enter mass (grams): ");
-						gas.SetMass(Convert.ToDouble(Console.ReadLine()));
+					// Set molecular weight
+					gas.SetMolecularWeight(molWeight);
 
-						Console.Write("Enter temperature (Celsius): ");
-						gas.SetTemperature(Convert.ToDouble(Console.ReadLine()));
+					// Get volume from user
+					Console.Write("Enter volume (cubic meters): ");
+					double volume = double.Parse(Console.ReadLine());
+					gas.SetVolume(volume);
 
-						DisplayPressure(gas.GetPressure());
-					}
+					// Get mass from user
+					Console.Write("Enter mass (grams): ");
+					double mass = double.Parse(Console.ReadLine());
+					gas.SetMass(mass);
+
+					// Get temperature from user
+					Console.Write("Enter temperature (Celsius): ");
+					double temperature = double.Parse(Console.ReadLine());
+					gas.SetTemperature(temperature);
+
+					// Get calculated pressure and display results
+					double pressurePa = gas.GetPressure();
+					DisplayPressure(pressurePa, temperature, gasName);
+
 				}
 				catch (FormatException)
 				{
-					Console.WriteLine("Error: Please enter numeric values for volume, mass, and temperature.");
+					Console.WriteLine("\nError: Invalid input format. Please enter numeric values.");
 				}
 				catch (OverflowException)
 				{
-					Console.WriteLine("Error: The number entered is too large.");
+					Console.WriteLine("\nError: Number is too large or too small.");
 				}
-				catch (Exception ex)
+				catch (Exception exc)
 				{
-					Console.WriteLine("Error: " + ex.Message);
+					Console.WriteLine("\nError: " + exc.Message);
 				}
 
-				Console.Write("\nDo another? (y/n): ");
-				choice = Console.ReadLine().ToLower();
+				// Ask if user wants to do another calculation
+				doAnother = GetInput("\nDo another calculation? (y/n): ");
 
-			} while (choice == "y");
+			} while (doAnother.ToLower() == "y");
 
-			Console.WriteLine("Thank you for using the Ideal Gas Calculator. Goodbye!");
+			// Goodbye message
+			Console.WriteLine("\nThank you for using the Ideal Gas Calculator!");
+			Console.WriteLine("Press any key to exit...");
+			Console.ReadKey();
 		}
 
+		// Display program header
 		static void DisplayHeader()
 		{
-			Console.WriteLine("=================================================");
+			Console.WriteLine("==========================================");
 			Console.WriteLine("Name: [Your Name]");
-			Console.WriteLine("Program: Ideal Gas Calculator");
-			Console.WriteLine("Objective: Calculate gas pressure using classes.");
-			Console.WriteLine("=================================================\n");
+			Console.WriteLine("Program: Ideal Gas Law Calculator (Class Version)");
+			Console.WriteLine("Objective: Calculate gas pressure using OOP and PV=nRT");
+			Console.WriteLine("==========================================\n");
 		}
 
-		static int GetMolecularWeights(ref string[] names, ref double[] weights)
+		// Load molecular weights from file
+		static void GetMolecularWeights(string filename)
 		{
-			int i = 0;
 			try
 			{
-				// Use File.ReadLines for memory efficiency
-				foreach (string line in File.ReadLines("gas_data.csv"))
-				{
-					string[] parts = line.Split(',');
-					names[i] = parts[0].Trim();
+				string[] lines = File.ReadAllLines(filename);
+				gasCount = lines.Length - 1; // Subtract header row
 
-					// FIX: Use parts[1] (or the correct index) instead of the URL
-					weights[i] = Convert.ToDouble(parts[1]);
-					i++;
+				gasNames = new string[gasCount];
+				molecularWeights = new double[gasCount];
+
+				// Skip header, read data
+				for (int i = 1; i < lines.Length; i++)
+				{
+					string[] parts = lines[i].Split('\t'); // Tab-separated
+					if (parts.Length >= 2)
+					{
+						gasNames[i - 1] = parts[0].Trim();
+						molecularWeights[i - 1] = double.Parse(parts[1].Trim());
+					}
 				}
+
+				Console.WriteLine($"Loaded {gasCount} gases from file.\n");
 			}
-			catch (Exception) { /* Handle file errors */ }
-			return i;
+			catch (Exception ex)
+			{
+				Console.WriteLine($"Error loading gas data: {ex.Message}");
+				Console.WriteLine("Using default gas data instead.\n");
+
+				// Default data if file not found
+				gasNames = new string[] { "Oxygen", "Nitrogen", "Hydrogen", "Carbon Dioxide" };
+				molecularWeights = new double[] { 31.9988, 28.0134, 2.016, 44.01 };
+				gasCount = 4;
+			}
 		}
 
-		static void DisplayGasNames(string[] names, int count)
+		// Display gas names in three columns
+		static void DisplayGasNames()
 		{
 			Console.WriteLine("Available Gases:");
-			for (int i = 0; i < count; i++)
+			Console.WriteLine("================");
+
+			int columns = 3;
+			int rows = (int)Math.Ceiling((double)gasCount / columns);
+
+			for (int row = 0; row < rows; row++)
 			{
-				Console.Write($"{names[i],-15}");
-				if ((i + 1) % 3 == 0) Console.WriteLine();
+				for (int col = 0; col < columns; col++)
+				{
+					int index = col * rows + row;
+					if (index < gasCount)
+					{
+						Console.Write($"{gasNames[index],-25}");
+					}
+				}
+				Console.WriteLine();
 			}
 			Console.WriteLine();
 		}
 
-		static double GetMolecularWeightFromName(string name, string[] names, double[] weights, int count)
+		// Get molecular weight for a given gas name
+		static double GetMolecularWeightFromName(string gasName)
 		{
-			for (int i = 0; i < count; i++)
+			for (int i = 0; i < gasCount; i++)
 			{
-				if (names[i].Equals(name, StringComparison.OrdinalIgnoreCase))
-					return weights[i];
+				if (gasNames[i].Equals(gasName, StringComparison.OrdinalIgnoreCase))
+				{
+					return molecularWeights[i];
+				}
 			}
-			return -1;
+			return -1; // Return -1 if not found
 		}
 
-		static void DisplayPressure(double pressurePascals)
+		// Display pressure results
+		static void DisplayPressure(double pressurePa, double tempC, string gasName)
 		{
-			double psi = PaToPsi(pressurePascals);
-			Console.WriteLine($"\nCalculated Pressure:");
-			Console.WriteLine($"- Pascals: {pressurePascals:N2} Pa");
-			Console.WriteLine($"- PSI:     {psi:N2} psi");
+			double pressurePsi = PaToPSI(pressurePa);
+
+			Console.WriteLine("\n========== RESULTS ==========");
+			Console.WriteLine($"Gas: {gasName}");
+			Console.WriteLine($"Temperature: {tempC:F2}°C ({tempC + 273.15:F2} K)");
+			Console.WriteLine($"Pressure: {pressurePa:F2} Pa");
+			Console.WriteLine($"Pressure: {pressurePa / 1000:F2} kPa");
+			Console.WriteLine($"Pressure: {pressurePsi:F2} PSI");
+			Console.WriteLine("============================");
 		}
 
-		static double PaToPsi(double pascals) => pascals * 0.000145038;
+		// Convert Pascals to PSI
+		static double PaToPSI(double pascals)
+		{
+			return pascals * 0.000145038; // Conversion factor
+		}
+
+		// Helper method to get input
+		static string GetInput(string prompt)
+		{
+			Console.Write(prompt);
+			return Console.ReadLine();
+		}
 	}
 }
