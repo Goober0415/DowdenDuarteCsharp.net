@@ -1,0 +1,14 @@
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\obj\Debug\net10.0\StaticClassDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\obj\Debug\net10.0\StaticClassDemo.AssemblyInfoInputs.cache
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\obj\Debug\net10.0\StaticClassDemo.AssemblyInfo.cs
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\obj\Debug\net10.0\StaticClassDemo.csproj.CoreCompileInputs.cache
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\bin\Debug\net10.0\StaticClassDemo.exe
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\bin\Debug\net10.0\StaticClassDemo.deps.json
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\bin\Debug\net10.0\StaticClassDemo.runtimeconfig.json
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\bin\Debug\net10.0\StaticClassDemo.dll
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\bin\Debug\net10.0\StaticClassDemo.pdb
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\obj\Debug\net10.0\StaticClassDemo.dll
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\obj\Debug\net10.0\refint\StaticClassDemo.dll
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\obj\Debug\net10.0\StaticClassDemo.pdb
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\obj\Debug\net10.0\StaticClassDemo.genruntimeconfig.cache
+C:\Users\jdowdenduarte\source\repos\StaticClassDemo\obj\Debug\net10.0\ref\StaticClassDemo.dll
