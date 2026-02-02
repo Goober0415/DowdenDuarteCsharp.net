@@ -1,0 +1,14 @@
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\P2IdealGasLawDowdenDuarte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\P2IdealGasLawDowdenDuarte.AssemblyInfoInputs.cache
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\P2IdealGasLawDowdenDuarte.AssemblyInfo.cs
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\P2IdealGasLawDowdenDuarte.csproj.CoreCompileInputs.cache
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\bin\Debug\net10.0\P2IdealGasLawDowdenDuarte.exe
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\bin\Debug\net10.0\P2IdealGasLawDowdenDuarte.deps.json
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\bin\Debug\net10.0\P2IdealGasLawDowdenDuarte.runtimeconfig.json
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\bin\Debug\net10.0\P2IdealGasLawDowdenDuarte.dll
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\bin\Debug\net10.0\P2IdealGasLawDowdenDuarte.pdb
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\P2IdealGasLawDowdenDuarte.dll
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\refint\P2IdealGasLawDowdenDuarte.dll
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\P2IdealGasLawDowdenDuarte.pdb
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\P2IdealGasLawDowdenDuarte.genruntimeconfig.cache
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\ref\P2IdealGasLawDowdenDuarte.dll
