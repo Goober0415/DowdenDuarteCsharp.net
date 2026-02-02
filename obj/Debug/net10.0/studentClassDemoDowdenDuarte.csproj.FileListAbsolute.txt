@@ -1,0 +1,14 @@
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\bin\Debug\net10.0\studentClassDemoDowdenDuarte.exe
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\bin\Debug\net10.0\studentClassDemoDowdenDuarte.deps.json
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\bin\Debug\net10.0\studentClassDemoDowdenDuarte.runtimeconfig.json
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\bin\Debug\net10.0\studentClassDemoDowdenDuarte.dll
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\bin\Debug\net10.0\studentClassDemoDowdenDuarte.pdb
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\obj\Debug\net10.0\studentClassDemoDowdenDuarte.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\obj\Debug\net10.0\studentClassDemoDowdenDuarte.AssemblyInfoInputs.cache
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\obj\Debug\net10.0\studentClassDemoDowdenDuarte.AssemblyInfo.cs
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\obj\Debug\net10.0\studentClassDemoDowdenDuarte.csproj.CoreCompileInputs.cache
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\obj\Debug\net10.0\studentClassDemoDowdenDuarte.dll
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\obj\Debug\net10.0\refint\studentClassDemoDowdenDuarte.dll
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\obj\Debug\net10.0\studentClassDemoDowdenDuarte.pdb
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\obj\Debug\net10.0\studentClassDemoDowdenDuarte.genruntimeconfig.cache
+C:\Users\jdowdenduarte\source\repos\studentClassDemoDowdenDuarte\obj\Debug\net10.0\ref\studentClassDemoDowdenDuarte.dll
