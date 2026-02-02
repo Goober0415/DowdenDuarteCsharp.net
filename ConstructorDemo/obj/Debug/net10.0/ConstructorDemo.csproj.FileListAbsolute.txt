@@ -1,0 +1,14 @@
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\bin\Debug\net10.0\ConstructorDemo.exe
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\bin\Debug\net10.0\ConstructorDemo.deps.json
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\bin\Debug\net10.0\ConstructorDemo.runtimeconfig.json
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\bin\Debug\net10.0\ConstructorDemo.dll
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\bin\Debug\net10.0\ConstructorDemo.pdb
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\obj\Debug\net10.0\ConstructorDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\obj\Debug\net10.0\ConstructorDemo.AssemblyInfoInputs.cache
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\obj\Debug\net10.0\ConstructorDemo.AssemblyInfo.cs
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\obj\Debug\net10.0\ConstructorDemo.csproj.CoreCompileInputs.cache
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\obj\Debug\net10.0\ConstructorDemo.dll
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\obj\Debug\net10.0\refint\ConstructorDemo.dll
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\obj\Debug\net10.0\ConstructorDemo.pdb
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\obj\Debug\net10.0\ConstructorDemo.genruntimeconfig.cache
+C:\Users\jdowdenduarte\source\repos\ConstructorDemo\obj\Debug\net10.0\ref\ConstructorDemo.dll
