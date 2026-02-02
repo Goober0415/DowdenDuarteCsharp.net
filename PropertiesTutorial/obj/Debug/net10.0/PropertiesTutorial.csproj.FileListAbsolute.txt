@@ -1,0 +1,14 @@
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\bin\Debug\net10.0\PropertiesTutorial.exe
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\bin\Debug\net10.0\PropertiesTutorial.deps.json
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\bin\Debug\net10.0\PropertiesTutorial.runtimeconfig.json
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\bin\Debug\net10.0\PropertiesTutorial.dll
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\bin\Debug\net10.0\PropertiesTutorial.pdb
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\obj\Debug\net10.0\PropertiesTutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\obj\Debug\net10.0\PropertiesTutorial.AssemblyInfoInputs.cache
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\obj\Debug\net10.0\PropertiesTutorial.AssemblyInfo.cs
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\obj\Debug\net10.0\PropertiesTutorial.csproj.CoreCompileInputs.cache
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\obj\Debug\net10.0\PropertiesTutorial.dll
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\obj\Debug\net10.0\refint\PropertiesTutorial.dll
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\obj\Debug\net10.0\PropertiesTutorial.pdb
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\obj\Debug\net10.0\PropertiesTutorial.genruntimeconfig.cache
+C:\Users\jdowdenduarte\source\repos\PropertiesTutorial\obj\Debug\net10.0\ref\PropertiesTutorial.dll
