@@ -1,0 +1,14 @@
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\obj\Debug\net10.0\CollectionsTutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\obj\Debug\net10.0\CollectionsTutorial.AssemblyInfoInputs.cache
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\obj\Debug\net10.0\CollectionsTutorial.AssemblyInfo.cs
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\obj\Debug\net10.0\CollectionsTutorial.csproj.CoreCompileInputs.cache
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\bin\Debug\net10.0\CollectionsTutorial.exe
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\bin\Debug\net10.0\CollectionsTutorial.deps.json
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\bin\Debug\net10.0\CollectionsTutorial.runtimeconfig.json
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\bin\Debug\net10.0\CollectionsTutorial.dll
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\bin\Debug\net10.0\CollectionsTutorial.pdb
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\obj\Debug\net10.0\CollectionsTutorial.dll
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\obj\Debug\net10.0\refint\CollectionsTutorial.dll
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\obj\Debug\net10.0\CollectionsTutorial.pdb
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\obj\Debug\net10.0\CollectionsTutorial.genruntimeconfig.cache
+C:\Users\jdowdenduarte\source\repos\CollectionsTutorial\obj\Debug\net10.0\ref\CollectionsTutorial.dll
