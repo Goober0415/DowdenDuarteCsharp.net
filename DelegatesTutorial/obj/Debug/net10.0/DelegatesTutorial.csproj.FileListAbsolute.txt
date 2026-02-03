@@ -1,0 +1,14 @@
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\bin\Debug\net10.0\DelegatesTutorial.exe
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\bin\Debug\net10.0\DelegatesTutorial.deps.json
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\bin\Debug\net10.0\DelegatesTutorial.runtimeconfig.json
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\bin\Debug\net10.0\DelegatesTutorial.dll
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\bin\Debug\net10.0\DelegatesTutorial.pdb
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\obj\Debug\net10.0\DelegatesTutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\obj\Debug\net10.0\DelegatesTutorial.AssemblyInfoInputs.cache
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\obj\Debug\net10.0\DelegatesTutorial.AssemblyInfo.cs
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\obj\Debug\net10.0\DelegatesTutorial.csproj.CoreCompileInputs.cache
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\obj\Debug\net10.0\DelegatesTutorial.dll
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\obj\Debug\net10.0\refint\DelegatesTutorial.dll
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\obj\Debug\net10.0\DelegatesTutorial.pdb
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\obj\Debug\net10.0\DelegatesTutorial.genruntimeconfig.cache
+C:\Users\jdowdenduarte\source\repos\DelegatesTutorial\obj\Debug\net10.0\ref\DelegatesTutorial.dll
