@@ -1,0 +1,14 @@
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\bin\Debug\net10.0\inheritanceTutorial.exe
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\bin\Debug\net10.0\inheritanceTutorial.deps.json
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\bin\Debug\net10.0\inheritanceTutorial.runtimeconfig.json
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\bin\Debug\net10.0\inheritanceTutorial.dll
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\bin\Debug\net10.0\inheritanceTutorial.pdb
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\obj\Debug\net10.0\inheritanceTutorial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\obj\Debug\net10.0\inheritanceTutorial.AssemblyInfoInputs.cache
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\obj\Debug\net10.0\inheritanceTutorial.AssemblyInfo.cs
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\obj\Debug\net10.0\inheritanceTutorial.csproj.CoreCompileInputs.cache
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\obj\Debug\net10.0\inheritanceTutorial.dll
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\obj\Debug\net10.0\refint\inheritanceTutorial.dll
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\obj\Debug\net10.0\inheritanceTutorial.pdb
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\obj\Debug\net10.0\inheritanceTutorial.genruntimeconfig.cache
+C:\Users\jdowdenduarte\source\repos\inheritanceTutorial\obj\Debug\net10.0\ref\inheritanceTutorial.dll
