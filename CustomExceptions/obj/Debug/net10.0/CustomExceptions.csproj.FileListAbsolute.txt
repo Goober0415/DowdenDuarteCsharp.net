@@ -1,0 +1,14 @@
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\bin\Debug\net10.0\CustomExceptions.exe
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\bin\Debug\net10.0\CustomExceptions.deps.json
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\bin\Debug\net10.0\CustomExceptions.runtimeconfig.json
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\bin\Debug\net10.0\CustomExceptions.dll
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\bin\Debug\net10.0\CustomExceptions.pdb
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\obj\Debug\net10.0\CustomExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\obj\Debug\net10.0\CustomExceptions.AssemblyInfoInputs.cache
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\obj\Debug\net10.0\CustomExceptions.AssemblyInfo.cs
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\obj\Debug\net10.0\CustomExceptions.csproj.CoreCompileInputs.cache
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\obj\Debug\net10.0\CustomExceptions.dll
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\obj\Debug\net10.0\refint\CustomExceptions.dll
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\obj\Debug\net10.0\CustomExceptions.pdb
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\obj\Debug\net10.0\CustomExceptions.genruntimeconfig.cache
+C:\Users\jdowdenduarte\source\repos\CustomExceptions\obj\Debug\net10.0\ref\CustomExceptions.dll
