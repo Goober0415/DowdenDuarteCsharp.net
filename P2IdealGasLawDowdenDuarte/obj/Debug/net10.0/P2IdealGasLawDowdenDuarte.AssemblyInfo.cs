@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("P2IdealGasLawDowdenDuarte")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e94bc6b7936621f60b11ea7e6c97e44bbf34aab")]
 [assembly: System.Reflection.AssemblyProductAttribute("P2IdealGasLawDowdenDuarte")]
 [assembly: System.Reflection.AssemblyTitleAttribute("P2IdealGasLawDowdenDuarte")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

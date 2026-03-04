@@ -1,11 +1,11 @@
-﻿// Name: [Your Name]
-// Email: [Your Email]
+﻿// Name: [JDD]
+// Email: [jdowdenduarte@cnm.edu]
 // File: GravitationalForce.cs
 // Date: February 2, 2026
 
 using System;
 
-namespace GravitationalForceDemo
+namespace P3WriteAClassWithPropertiesAndAConstuctor
 {
 	/// <summary>
 	/// Represents the gravitational force between two objects in space.

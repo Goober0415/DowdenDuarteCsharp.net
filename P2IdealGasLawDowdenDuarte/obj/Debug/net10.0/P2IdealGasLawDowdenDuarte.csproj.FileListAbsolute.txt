@@ -12,3 +12,6 @@ C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\
 C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\P2IdealGasLawDowdenDuarte.pdb
 C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\P2IdealGasLawDowdenDuarte.genruntimeconfig.cache
 C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\ref\P2IdealGasLawDowdenDuarte.dll
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\bin\Debug\net10.0\Program.cs
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\bin\Debug\net10.0\MolecularWeightsGasesAndVapors (1).csv
+C:\Users\jdowdenduarte\source\repos\P2IdealGasLawDowdenDuarte\obj\Debug\net10.0\P2IdealGasLawDowdenDuarte.sourcelink.json

@@ -2,7 +2,7 @@
  * Name: [Jamie Dowden-Duarte]
  * Email: [jdowdenduarte@cnm.edu]
  * File Name: IdealGas.cs
- * Date: 2026-02-02
+ * Date: 02-02-2026
  */
 
 namespace P2IdealGasLawDowdenDuarte
