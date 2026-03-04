@@ -1,0 +1,14 @@
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\bin\Debug\net10.0\abstactAndSealedClassesJDD.exe
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\bin\Debug\net10.0\abstactAndSealedClassesJDD.deps.json
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\bin\Debug\net10.0\abstactAndSealedClassesJDD.runtimeconfig.json
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\bin\Debug\net10.0\abstactAndSealedClassesJDD.dll
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\bin\Debug\net10.0\abstactAndSealedClassesJDD.pdb
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\obj\Debug\net10.0\abstactAndSealedClassesJDD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\obj\Debug\net10.0\abstactAndSealedClassesJDD.AssemblyInfoInputs.cache
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\obj\Debug\net10.0\abstactAndSealedClassesJDD.AssemblyInfo.cs
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\obj\Debug\net10.0\abstactAndSealedClassesJDD.csproj.CoreCompileInputs.cache
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\obj\Debug\net10.0\abstactAndSealedClassesJDD.dll
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\obj\Debug\net10.0\refint\abstactAndSealedClassesJDD.dll
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\obj\Debug\net10.0\abstactAndSealedClassesJDD.pdb
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\obj\Debug\net10.0\abstactAndSealedClassesJDD.genruntimeconfig.cache
+C:\Users\jdowdenduarte\source\repos\abstactAndSealedClassesJDD\obj\Debug\net10.0\ref\abstactAndSealedClassesJDD.dll
