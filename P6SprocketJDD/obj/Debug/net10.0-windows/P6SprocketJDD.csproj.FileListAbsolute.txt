@@ -1,0 +1,6 @@
+C:\Users\jdowdenduarte\source\repos\P6SprocketJDD\obj\Debug\net10.0-windows\sprocketForm.baml
+C:\Users\jdowdenduarte\source\repos\P6SprocketJDD\obj\Debug\net10.0-windows\MainWindow.g.cs
+C:\Users\jdowdenduarte\source\repos\P6SprocketJDD\obj\Debug\net10.0-windows\sprocketForm.g.cs
+C:\Users\jdowdenduarte\source\repos\P6SprocketJDD\obj\Debug\net10.0-windows\App.g.cs
+C:\Users\jdowdenduarte\source\repos\P6SprocketJDD\obj\Debug\net10.0-windows\P6SprocketJDD_MarkupCompile.cache
+C:\Users\jdowdenduarte\source\repos\P6SprocketJDD\obj\Debug\net10.0-windows\P6SprocketJDD_MarkupCompile.lref
