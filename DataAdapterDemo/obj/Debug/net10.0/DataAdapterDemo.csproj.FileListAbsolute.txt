@@ -1,0 +1,6 @@
+C:\Users\jdowdenduarte\source\repos\DataAdapterDemo\obj\Debug\net10.0\DataAdapterDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jdowdenduarte\source\repos\DataAdapterDemo\obj\Debug\net10.0\DataAdapterDemo.AssemblyInfoInputs.cache
+C:\Users\jdowdenduarte\source\repos\DataAdapterDemo\obj\Debug\net10.0\DataAdapterDemo.AssemblyInfo.cs
+C:\Users\jdowdenduarte\source\repos\DataAdapterDemo\obj\Debug\net10.0\DataAdapterDemo.csproj.CoreCompileInputs.cache
+C:\Users\jdowdenduarte\source\repos\DataAdapterDemo\obj\Debug\net10.0\DataAdapterDemo.Resources.resources
+C:\Users\jdowdenduarte\source\repos\DataAdapterDemo\obj\Debug\net10.0\DataAdapterDemo.csproj.GenerateResource.cache
