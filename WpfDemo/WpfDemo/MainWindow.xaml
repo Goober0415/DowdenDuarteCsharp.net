@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+	<Grid>
+		<TextBox x:Name="txbUserInput" ...="" />
+		<Button  x:Name="btnButton"    Content="Button"
+                 Click="btnButton_Click"/>
+		<Label   x:Name="lblResult"    Content="Label" />
+
+		<!-- CheckBoxes -->
+		<CheckBox x:Name="cbCheck1" Content="Check1" />
+		<CheckBox x:Name="cbCheck2" Content="Check2" />
+		<CheckBox x:Name="cbCheck3" Content="Check3" />
+
+		<!-- Radio group 1 (no GroupName = same window group) -->
+		<RadioButton x:Name="rbOption1" Content="Option1"/>
+		<RadioButton x:Name="rbOption2" Content="Option2"/>
+		<RadioButton x:Name="rbOption3" Content="Option3"/>
+
+		<!-- Radio group 2 -->
+		<RadioButton x:Name="rbOption4" GroupName="Group2" Content="Option4"/>
+		<RadioButton x:Name="rbOption5" GroupName="Group2" Content="Option5"/>
+		<RadioButton x:Name="rbOption6" GroupName="Group2" Content="Option6"/>
+	</Grid>
+</Window>
